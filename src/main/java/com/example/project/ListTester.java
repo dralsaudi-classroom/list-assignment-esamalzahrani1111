@@ -43,7 +43,6 @@ public class ListTester {
        //   temp.findNext();
       }
      
-    }
     public static <T> void reverseCopy(DLL<T> l1, DLL<T> l2)
     {
       
