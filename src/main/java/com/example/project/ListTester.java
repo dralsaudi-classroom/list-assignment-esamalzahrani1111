@@ -4,14 +4,14 @@ public class ListTester {
     public static <T> void circularLeftShift(List <T> list, int n)
     {
         ArrayList temp = new ArrayList(n);  
-        List.findFirst();
+        list.findFirst();
         for (int i=0; i<n;i++)
         {
-        temp.insert(List.retrieve());
+        temp.insert(list.retrieve());
         List.remove();
         }
         temp.findFist();
-        while(!(List.last())){
+        while(!(list.last())){
             list.FindNext();
         }
        for (int i=0;i<n;i++){
