@@ -3,7 +3,7 @@ package com.example.project;
 public class ListTester {
     public static <T> void circularLeftShift(List <T> list, int n)
     {
-        ArrayList temp = new ArrayList(n);  
+        DLL temp = new DLL();  
         list.findFirst();
         for (int i=0; i<n;i++)
         {
