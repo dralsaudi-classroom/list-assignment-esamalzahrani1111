@@ -3,20 +3,41 @@ package com.example.project;
 public class ListTester {
     public static <T> void circularLeftShift(List <T> list, int n)
     {
-        DLL <T>temp = new DLL();  
+        <T> temp;
         list.findFirst();
-        for (int i=0; i<n;i++)
-        {
-        temp.insert(list.retrieve());
-        list.remove();
+        for (int i=0;i<n;i++){
+            temp = list.retrieve();
+            while (! (list.last() )
+                   list.findNext();
+            list.insert(temp);
+            list.findFirst();
+            list.remove();
         }
-        temp.findFirst();
-        while(!(list.last())){
-            list.findNext();
-        }
-      for (int i=0;i<n;i++){
-          list.insert(temp.retrieve());
-          temp.findNext();
+     //   DLL <T>temp = new DLL();  
+       // list.findFirst();
+        
+     //   for (int i=0; i<n;i++) //saving the first n elements if n>list then loop from head
+       // {
+    //    temp.insert(list.retrieve());
+    //    if (!list.last())
+      //      list.findNext();
+        //    else 
+        //    list.findFirst();
+     //   }
+
+        
+     //   temp.findFirst();
+     //   list.findFirst();
+        
+      //  for int (i=0 ; i<n;i++)
+       //     list.remove();
+        
+     //   while(!(list.last())){
+       //     list.findNext();
+       // }
+     // for (int i=0;i<n;i++){
+       //   list.insert(temp.retrieve());
+       //   temp.findNext();
       }
      
     }
