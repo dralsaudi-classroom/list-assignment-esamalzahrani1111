@@ -14,10 +14,14 @@ public class ListTester {
         while(!(list.last())){
             list.findNext();
         }
-       for (int i=0;i<n;i++){
-           list.insert(temp.retrieve());
-           temp.findNext();
-       }
+      // for (int i=0;i<n;i++){
+        //   list.insert(temp.retrieve());
+      //     temp.findNext();
+     //  }
+        while (temp !=null){
+            list.insert(temp.retrieve());
+            temp.findNext();
+        }
     }
     public static <T> void reverseCopy(DLL<T> l1, DLL<T> l2)
     {
