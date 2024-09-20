@@ -7,8 +7,10 @@ public class ListTester {
         list.findFirst();
         for (int i=0;i<n;i++){
             temp = list.retrieve();
-            while (! (list.last() )
-                   list.findNext();
+            while ( !( list.last() ) ){
+                list.findNext();
+            }
+            
             list.insert(temp);
             list.findFirst();
             list.remove();
