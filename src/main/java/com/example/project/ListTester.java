@@ -12,7 +12,7 @@ public class ListTester {
         }
         temp.findFirst();
         while(!(list.last())){
-            list.FindNext();
+            list.findNext();
         }
        for (int i=0;i<n;i++){
            list.insert(temp.retrieve());
