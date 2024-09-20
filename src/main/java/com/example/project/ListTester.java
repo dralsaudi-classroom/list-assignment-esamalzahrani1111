@@ -9,8 +9,6 @@ public class ListTester {
         {
         temp.insert(list.retrieve());
         list.remove();
-            if (list.last())
-                list.findFirst();
         }
         temp.findFirst();
         while(!(list.last())){
@@ -19,8 +17,6 @@ public class ListTester {
       for (int i=0;i<n;i++){
           list.insert(temp.retrieve());
           temp.findNext();
-           if (list.last())
-                list.findFirst();
       }
      
     }
