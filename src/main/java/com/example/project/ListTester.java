@@ -9,19 +9,20 @@ public class ListTester {
         {
         temp.insert(list.retrieve());
         list.remove();
+            if (list.last())
+                list.findFirst();
         }
         temp.findFirst();
         while(!(list.last())){
             list.findNext();
         }
-      // for (int i=0;i<n;i++){
-        //   list.insert(temp.retrieve());
-      //     temp.findNext();
-     //  }
-        while (temp !=null){
-            list.insert(temp.retrieve());
-            temp.findNext();
-        }
+      for (int i=0;i<n;i++){
+          list.insert(temp.retrieve());
+          temp.findNext();
+           if (list.last())
+                list.findFirst();
+      }
+     
     }
     public static <T> void reverseCopy(DLL<T> l1, DLL<T> l2)
     {
