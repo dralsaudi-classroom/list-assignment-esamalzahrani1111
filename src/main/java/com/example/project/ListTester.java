@@ -8,9 +8,9 @@ public class ListTester {
         for (int i=0; i<n;i++)
         {
         temp.insert(list.retrieve());
-        List.remove();
+        list.remove();
         }
-        temp.findFist();
+        temp.findFirst();
         while(!(list.last())){
             list.FindNext();
         }
