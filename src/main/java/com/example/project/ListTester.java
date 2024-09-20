@@ -6,7 +6,7 @@ public class ListTester {
         DLL <T> temp = new DLL();;
         list.findFirst();
         for (int i=0;i<n;i++){
-            temp.insert(list.retrieve())
+            temp.insert(list.retrieve());
             while ( !( list.last() ) ){
                 list.findNext();
             }
