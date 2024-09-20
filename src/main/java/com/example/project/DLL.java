@@ -70,7 +70,7 @@ public class DLL<T> {
 	    DLLNode<T> temp1;
 	    DLLNode<T> temp2;
 	    
-	    while (runner.next != null) {
+	    while (runner != null) {
 		    if (runner.data == e1)
 			    temp1 = runner;
 		    if (runner.data == e2)
