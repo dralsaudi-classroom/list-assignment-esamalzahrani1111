@@ -75,7 +75,7 @@ public class DLL<T> {
 			    temp1 = runner;
 		    if (runner.data == e2)
 			    temp2 = runner;
-		    runner = runner.next;
+		    runner = runner.next; //test
 	    }
 	    if (temp1 != null && temp2 != null){
 		    temp1.next = temp2;
