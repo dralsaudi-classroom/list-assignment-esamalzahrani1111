@@ -3,15 +3,16 @@ package com.example.project;
 public class ListTester {
     public static <T> void circularLeftShift(List <T> list, int n)
     {
-        <T> temp;
+        DLL <T> temp = new DLL();;
         list.findFirst();
         for (int i=0;i<n;i++){
-            temp = list.retrieve();
+            temp.insert(list.retrieve())
             while ( !( list.last() ) ){
                 list.findNext();
             }
             
-            list.insert(temp);
+            list.insert(temp.retrieve());
+            temp.remove();
             list.findFirst();
             list.remove();
         }
