@@ -15,7 +15,7 @@ public class ListTester {
             list.findNext();
         }
        for (int i=0;i<n;i++){
-           list.insert("tset");
+           list.insert(DLL.retrieve());
            temp.findNext();
        }
     }
