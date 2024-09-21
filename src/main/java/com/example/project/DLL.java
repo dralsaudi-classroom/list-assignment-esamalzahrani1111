@@ -68,7 +68,7 @@ public class DLL<T> {
      
 	    DLLNode<T> runner = head;
 	    DLLNode<T> temp1 = null;
-	    DLLNode<T> temp2 - null;
+	    DLLNode<T> temp2 = null;
 	    
 	    while (runner != null) {
 		    if (runner.data == e1)
