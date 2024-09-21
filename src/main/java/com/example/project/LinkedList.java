@@ -78,7 +78,7 @@ public class LinkedList<T> implements List<T>{
 			    //temp = runner1;
 			    
 			    while (runner2 != null){
-				    if (runner1.data == runner2.data);
+				    if (runner1.data == runner2.data)
 				    tempFrequency++;
 				    runner2 = runner2.next;
 			    }
