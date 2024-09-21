@@ -45,7 +45,7 @@ public class ListTester {
      
     public static <T> void reverseCopy(DLL<T> l1, DLL<T> l2)
     {
-      
+      if (!(l1.empty())) {
         while (!(l1.last())){
             l1.findNext();
         }
@@ -53,7 +53,6 @@ public class ListTester {
             l2.insert(l1.retrieve());
             l1.findPrevious();
         }
-        if (!(l1.empty()))
         l2.insert(l1.retrieve());
-    }
+    }}
 }
