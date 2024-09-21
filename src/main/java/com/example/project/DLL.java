@@ -77,7 +77,7 @@ public class DLL<T> {
 			    temp2 = runner;
 		    runner = runner.next; //test
 	    }
-	    if (temp1 != null && temp2 != null && temp1 != temp2 && temp1.retrieve1() == e1 && temp2.retrieve() == e2){
+	    if (temp1 != null && temp2 != null && temp1 != temp2 && temp1.retrieve() == e1 && temp2.retrieve() == e2){
 		    temp1.next = temp2;
 			    current = head;
 	    }
