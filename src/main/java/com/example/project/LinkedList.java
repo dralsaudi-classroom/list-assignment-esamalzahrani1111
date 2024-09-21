@@ -100,6 +100,6 @@ public class LinkedList<T> implements List<T>{
 
 		    
 	    }
-	    return MostFreqObj;
+	    return MostFreqObj.data;
     }
 }
