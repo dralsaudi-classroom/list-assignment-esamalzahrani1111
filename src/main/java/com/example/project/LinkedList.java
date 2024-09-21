@@ -73,7 +73,7 @@ public class LinkedList<T> implements List<T>{
 		    int frequency = 0;
 		    int tempFrequency = 0;
 		    
-		    while (runner != null){
+		    while (runner1 != null){
 			    
 			    temp = runner1;
 			    
