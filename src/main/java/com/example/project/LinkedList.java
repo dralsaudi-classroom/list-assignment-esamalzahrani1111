@@ -86,8 +86,8 @@ public class LinkedList<T> implements List<T>{
 			    if (tempFrequency>frequency){
 				frequency = tempFrequency;
 				    MostFreqObj = runner1;
-				    tempFrequency = 0;
 			    }
+			    tempFrequency = 0;
 			    runner2 = head;
 			    runner1 = runner1.next;
 			    
