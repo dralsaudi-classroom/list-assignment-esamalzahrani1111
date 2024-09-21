@@ -53,6 +53,6 @@ public class ListTester {
             l2.insert(l1.retrieve());
             l1.findPrevious();
         }
-        
+        l2.insert(l1.retrieve());
     }
 }
