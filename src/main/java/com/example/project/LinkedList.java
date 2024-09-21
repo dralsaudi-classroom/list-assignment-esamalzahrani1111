@@ -67,7 +67,7 @@ public class LinkedList<T> implements List<T>{
 		    
 		     Node<T> temp = null;
 		     Node<T> MostFreqObj = null;
-		     Node<T> runner = head;
+		     Node<T> runner1 = head;
 		     Node<T> runner2 = head;
 		    
 		    int frequency = 0;
@@ -75,7 +75,7 @@ public class LinkedList<T> implements List<T>{
 		    
 		    while (runner != null){
 			    
-			    temp = runner;
+			    temp = runner1;
 			    
 			    while (runner2 != null){
 				    if (temp == runner2);
