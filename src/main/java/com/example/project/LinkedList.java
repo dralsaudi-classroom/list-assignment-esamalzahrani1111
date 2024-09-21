@@ -100,6 +100,7 @@ public class LinkedList<T> implements List<T>{
 
 		    
 	    }
+	    system.out.printlin(MostFreqObj.data);
 	    return MostFreqObj.data;
     }
 }
