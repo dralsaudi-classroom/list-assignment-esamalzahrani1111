@@ -62,11 +62,11 @@ public class LinkedList<T> implements List<T>{
         // number of times, the one encountered earlier is returned.
         // Example 1.1. Given the list l : A, B, C, B, C, D, E, mostFrequentElement() returns
         // B.
+	Node<T> MostFreqObj = null;
 	    if (! (this.empty()) ){
 
 		    
 		     Node<T> temp = null;
-		     Node<T> MostFreqObj = null;
 		     Node<T> runner1 = head;
 		     Node<T> runner2 = head;
 		    
@@ -100,5 +100,6 @@ public class LinkedList<T> implements List<T>{
 
 		    
 	    }
+	    return MostFreqObj;
     }
 }
