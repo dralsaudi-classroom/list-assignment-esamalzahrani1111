@@ -62,5 +62,43 @@ public class LinkedList<T> implements List<T>{
         // number of times, the one encountered earlier is returned.
         // Example 1.1. Given the list l : A, B, C, B, C, D, E, mostFrequentElement() returns
         // B.
+	    if (!empty()){
+
+		    
+		    private Node<T> temp = null;
+		    private Node<T> MostFreqObj = null;
+		    private Node<T> runner = head;
+		    private Node<T> runner2 = head;
+		    
+		    int frequency = 0;
+		    int tempFrequency = 0;
+		    
+		    while (runner != null){
+			    
+			    temp = runner;
+			    
+			    while (runner2 != null){
+				    if (temp == runner2);
+				    tempfrequency++;
+				    runner2.next;
+			    }
+			    
+			    if (tempFrequency>frequency){
+				frequency = tempFrequency;
+				    MostFreqObj = temp;
+				    tempFrequency = 0;
+			    }
+			    runner2 = head;
+			    runner1.next;
+			    
+		    }
+
+
+
+
+
+
+		    
+	    }
     }
 }
