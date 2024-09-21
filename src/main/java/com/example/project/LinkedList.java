@@ -66,7 +66,7 @@ public class LinkedList<T> implements List<T>{
 	    if (! (this.empty()) ){
 
 		    
-		     Node<T> temp = null;
+		     //Node<T> temp = null;
 		     Node<T> runner1 = head;
 		     Node<T> runner2 = head;
 		    
@@ -75,17 +75,17 @@ public class LinkedList<T> implements List<T>{
 		    
 		    while (runner1 != null){
 			    
-			    temp = runner1;
+			    //temp = runner1;
 			    
 			    while (runner2 != null){
-				    if (temp == runner2);
+				    if (runner1 == runner2);
 				    tempFrequency++;
 				    runner2 = runner2.next;
 			    }
 			    
 			    if (tempFrequency>frequency){
 				frequency = tempFrequency;
-				    MostFreqObj = temp;
+				    MostFreqObj = runner1;
 				    tempFrequency = 0;
 			    }
 			    runner2 = head;
@@ -100,7 +100,6 @@ public class LinkedList<T> implements List<T>{
 
 		    
 	    }
-	    system.out.printlin(MostFreqObj.data);
 	    return MostFreqObj.data;
     }
 }
