@@ -65,10 +65,10 @@ public class LinkedList<T> implements List<T>{
 	    if (!empty()){
 
 		    
-		    private Node<T> temp = null;
-		    private Node<T> MostFreqObj = null;
-		    private Node<T> runner = head;
-		    private Node<T> runner2 = head;
+		     Node<T> temp = null;
+		     Node<T> MostFreqObj = null;
+		     Node<T> runner = head;
+		     Node<T> runner2 = head;
 		    
 		    int frequency = 0;
 		    int tempFrequency = 0;
@@ -80,7 +80,7 @@ public class LinkedList<T> implements List<T>{
 			    while (runner2 != null){
 				    if (temp == runner2);
 				    tempfrequency++;
-				    runner2.next;
+				    runner2 = runner2.next;
 			    }
 			    
 			    if (tempFrequency>frequency){
@@ -89,7 +89,7 @@ public class LinkedList<T> implements List<T>{
 				    tempFrequency = 0;
 			    }
 			    runner2 = head;
-			    runner1.next;
+			    runner1 = runner1.next;
 			    
 		    }
 
