@@ -53,6 +53,7 @@ public class ListTester {
             l2.insert(l1.retrieve());
             l1.findPrevious();
         }
+        if (!(l1.empty()))
         l2.insert(l1.retrieve());
     }
 }
